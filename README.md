@@ -4,7 +4,7 @@
 Contacteu amb el departament d'Administració Digital de l’ORGT ( orgt.administraciodigital@diba.cat )
 
 ## Informació tècnica
-Cal que accediu al webservice mitjançat operacions SOAP. L’especificació la podeu obtenir del [fitxer WSDL disponible en aquest repositori](https://github.com/organisme-de-gestio-tributaria/autoliquidacio-itvm/blob/main/AutoliquidacioIVTM_wsdl.xml).
+Cal que accediu al webservice mitjançat operacions SOAP. L’especificació la podeu obtenir del [fitxer WSDL disponible en aquest repositori](https://github.com/organisme-de-gestio-tributaria/autoliquidacio-ivtm/blob/main/AutoliquidacioIVTM_wsdl.xml).
 
 El servei es troba a les següents URL's:
 * Producció: https://wsreal.orgt.diba.cat/AutoliquidacioIVTM/AutoliquidacioIVTMService.svc
