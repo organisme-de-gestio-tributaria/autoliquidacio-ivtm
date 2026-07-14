@@ -27,13 +27,13 @@ Les operacions disponibles són:
    
    *Paràmetres petició*: codi de municipi, exercici
 
-   *Paràmetres resposta*: una llista de les Exempcions (codi, descripcio) i una llista amb les Bonificacions (codi, descripcio, percentatge de bonificació)
+   *Paràmetres resposta*: una llista de les Exempcions (codi, descripció) i una llista amb les Bonificacions (codi, descripció, percentatge de bonificació)
 
 3. **Calcul**. Realitza el càlcul d'una autoliquidació d'IVTM.
 
-   *Paràmetres petició*: NIF gestoria, número exprés gestor, tipus d'operacio [Matriculacio o Rehabilitacio], matrícula rehabilitada, codi de municipi, data de matriculació, conjunt de dades del Vehicle, conjunt de dades del Titular, codi de Benefici Fiscal
+   *Paràmetres petició*: NIF gestoria, número exprés gestor, tipus d'operació [Matriculacio o Rehabilitacio], matrícula rehabilitada, codi de municipi, data de matriculació, conjunt de dades del Vehicle, conjunt de dades del Titular, codi de Benefici Fiscal
 
-   *Paràmetres resposta*: número d'autoliquidació, conjunt de dades calculades (import anual, import periode, import a pagar, codi de tarifa, percentatge de Benefici Fiscal)
+   *Paràmetres resposta*: número d'autoliquidació, conjunt de dades calculades (import anual, import període, import a pagar, codi de tarifa, percentatge de Benefici Fiscal)
    
    *Paràmetres resposta opcionals*: documentació en PDF si l'import a pagar és 0€
 
@@ -43,13 +43,13 @@ Les operacions disponibles són:
 
    *Paràmetres resposta*: conjunt de dades de l'abonaré (referencia, identificadora, data d'emissió, data de caducitat, emissora), codi HTML per poder redireccionar el pagament on-line per TPV
 
-5. **Pagament**. Pagamament d'una autoliquidació d'IVTM.
+5. **Pagament**. Pagament d'una autoliquidació d'IVTM.
 
    *Paràmetres petició*: emissor, número d'autoliquidació, conjunt de dades del pagament (import, IBAN, NIF titular, nom titular)
 
-   *Paràmetres resposta*: document de pagament en PDF, conjunt de dades calculades (import anual, import periode, import a pagar, codi de tarifa, % de Benefici Fiscal), número d'autoliquidació, conjunt de dades de l'abonaré (referencia, identificadora, data d'emissió, data de caducitat, emissora), NRC, IBAN
+   *Paràmetres resposta*: document de pagament en PDF, conjunt de dades calculades (import anual, import període, import a pagar, codi de tarifa, % de Benefici Fiscal), número d'autoliquidació, conjunt de dades de l'abonaré (referencia, identificadora, data d'emissió, data de caducitat, emissora), NRC, IBAN
 
-6. **AcreditarPagament**. Recupera el document de pagamament d'una autoliquidació d'IVTM.
+6. **AcreditarPagament**. Recupera el document de pagament d'una autoliquidació d'IVTM.
 
    *Paràmetres petició*: número d'autoliquidació
   
